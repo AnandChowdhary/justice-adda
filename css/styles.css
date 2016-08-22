@@ -1,0 +1,148 @@
+@import 'https://fonts.googleapis.com/css?family=Fira+Sans:300,400,400i,700';
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+body {
+    font-size: 14px;
+    line-height: 22px;
+    color: #666;
+    font-family: "Fira Sans", "Roboto", Helvetica, Arial, sans-serif;
+    background-size: cover;
+}
+
+body:before {
+    content: "";
+    position: absolute;
+    background: url("../img/bg.png") 100% 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 3px;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1650px;
+}
+
+::selection {
+    background: #3498db;
+    color: #fff;
+}
+
+#masthead {
+    padding: 20px 0;
+}
+#masthead a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+#masthead a:hover {
+    color: #3498db;
+}
+
+.logo-column {
+    font-weight: bold;
+}
+.logo-column img {
+    height: 16px;
+    margin-right: 10px;
+}
+
+.hero-text {
+    margin: 20vh 0 25vh 0;
+    font-weight: 300;
+}
+
+.small-heading {
+    font-weight: bold;
+    font-size: 105%;
+    margin-bottom: 20px;
+}
+
+.padded {
+    padding: 15vh 0;
+}
+
+.all-caps {
+    text-transform: uppercase;
+    font-size: 105%;
+    font-weight: normal;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.image {
+    background: whitesmoke;
+    height: 400px;
+    padding: 30px;
+}
+
+.button {
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#colophon {
+    margin: 10vh 0;
+    text-align: center;
+}
+
+.person-image {
+    background: whitesmoke;
+    float: left;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.person-name {
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+.ma-bo {
+    margin-bottom: 10vh;
+}
