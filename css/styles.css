@@ -61,7 +61,7 @@ body:before {
 }
 
 ::selection {
-    background: #3498db;
+    background: #d7594d;
     color: #fff;
 }
 
@@ -77,7 +77,7 @@ body:before {
     color: #3498db;
 }
 
-.logo-column {
+.logo-column a:first-of-type {
     font-weight: bold;
 }
 .logo-column img {
@@ -86,8 +86,16 @@ body:before {
 }
 
 .hero-text {
-    margin: 20vh 0 25vh 0;
+    margin: 20vh 0 0 0;
     font-weight: 300;
+}
+.hero-text a {
+    color: inherit;
+    border-bottom: 1px dashed #aaa;
+}
+.hero-text a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid;
 }
 
 .small-heading {
@@ -123,11 +131,6 @@ h2 {
     display: inline-block;
 }
 
-#colophon {
-    margin: 10vh 0;
-    text-align: center;
-}
-
 .person-image {
     background: whitesmoke;
     float: left;
@@ -145,4 +148,56 @@ h2 {
 
 .ma-bo {
     margin-bottom: 10vh;
+}
+.ma {
+    margin: 10vh 0;
+}
+
+.footer-heading {
+    margin-bottom: 20px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#colophon {
+    margin-top: 15vh;
+    padding: 55px 0;
+    background: whitesmoke;
+    position: relative;
+}
+#colophon:after {
+    content: "";
+    position: absolute;
+    background: url("../img/bg.png") 100% 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 20px;
+}
+#colophon a {
+    color: inherit;
+    display: block;
+}
+#colophon ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+#colophon li {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    display: inline-block !important;
+    margin-right: 15px;
+    font-size: 175%;
+}
+
+.button-hero {
+    font-size: 150%;
+    padding: 20px 30px;
+    margin-bottom: 10vh;
+}
+.button-hero i {
+    margin-left: 20px;
 }
