@@ -104,6 +104,11 @@ body:before {
 	margin-bottom: 20px;
 }
 
+a.active {
+	border-bottom: 2px solid;
+	display: inline-block !important;
+}
+
 .padded {
 	padding: 15vh 0;
 }
@@ -114,7 +119,7 @@ body:before {
 	font-weight: normal;
 }
 
-h2 {
+h2, h3, h4, h5 {
 	margin-bottom: 20px;
 }
 
@@ -249,6 +254,12 @@ img {
 .ma-to-sm {
 	margin-top: 15px;
 }
+.ma-to-big {
+	margin-top: 50px;
+}
+.ma-to-xl {
+	margin-top: 75px;
+}
 
 p:last-child {
 	margin-bottom: 0;
@@ -300,5 +311,39 @@ p:last-child {
 .ta-c {
 	text-align: center;
 }
+.ta-r {
+	text-align: right;
+}
 
-/**/
+.gray {
+	background: whitesmoke;
+}
+.padded-big {
+	padding: 50px 0;
+}
+
+.icon-big {
+	display: block;
+	font-size: 400%;
+	color: #aaa;
+	margin-bottom: 20px;
+}
+
+.big-font {
+	font-size: 120%;
+}
+
+.light {
+	color: #aaa;
+}
+
+.button i {
+	margin-left: 10px;
+}
+
+.projects figure {
+	width: 90%;
+}
+.projects .col-md-6:last-child figure {
+	float: right;
+}
