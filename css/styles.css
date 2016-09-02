@@ -4,249 +4,299 @@
 .col-sm-5ths,
 .col-md-5ths,
 .col-lg-5ths {
-    position: relative;
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
+	position: relative;
+	min-height: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .col-xs-5ths {
-    width: 20%;
-    float: left;
+	width: 20%;
+	float: left;
 }
 
 @media (min-width: 768px) {
-    .col-sm-5ths {
-        width: 20%;
-        float: left;
-    }
+	.col-sm-5ths {
+		width: 20%;
+		float: left;
+	}
 }
 
 @media (min-width: 992px) {
-    .col-md-5ths {
-        width: 20%;
-        float: left;
-    }
+	.col-md-5ths {
+		width: 20%;
+		float: left;
+	}
 }
 
 @media (min-width: 1200px) {
-    .col-lg-5ths {
-        width: 20%;
-        float: left;
-    }
+	.col-lg-5ths {
+		width: 20%;
+		float: left;
+	}
 }
 
 body {
-    font-size: 14px;
-    line-height: 22px;
-    color: #666;
-    font-family: "Fira Sans", "Roboto", Helvetica, Arial, sans-serif;
-    background-size: cover;
+	font-size: 14px;
+	line-height: 22px;
+	color: #666;
+	font-family: "Fira Sans", "Roboto", Helvetica, Arial, sans-serif;
+	background-size: cover;
 }
 
 body:before {
-    content: "";
-    position: absolute;
-    background: url("../img/bg.png") 100% 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 3px;
+	content: "";
+	position: absolute;
+	background: url("../img/bg.png") 100% 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 3px;
 }
 
 .container-fluid {
-    margin: 0 auto;
-    width: 95%;
-    max-width: 1650px;
+	margin: 0 auto;
+	width: 95%;
+	max-width: 1650px;
 }
 
 ::selection {
-    background: #d7594d;
-    color: #fff;
+	background: #d7594d;
+	color: #fff;
 }
 
 #masthead {
-    padding: 30px 0 10px;
+	padding: 30px 0 10px;
 }
 #masthead a {
-    text-decoration: none;
-    color: inherit;
-    display: block;
+	text-decoration: none;
+	color: inherit;
+	display: block;
 }
 #masthead a:hover {
-    color: #3498db;
+	color: #3498db;
 }
 
 .logo-column a:first-of-type {
-    font-weight: bold;
+	font-weight: bold;
 }
 .logo-column img {
-    height: 16px;
-    margin-right: 10px;
+	height: 16px;
+	margin-right: 10px;
 }
 
 .hero-text {
-    margin: 20vh 0 0 0;
-    font-weight: 300;
+	margin: 20vh 0 0 0;
+	font-weight: 300;
 }
 .hero-text a {
-    color: inherit;
-    border-bottom: 1px dashed #aaa;
+	color: inherit;
+	border-bottom: 1px dashed #aaa;
 }
 .hero-text a:hover {
-    text-decoration: none;
-    border-bottom: 1px solid;
+	text-decoration: none;
+	border-bottom: 1px solid;
 }
 
 .small-heading {
-    font-weight: bold;
-    font-size: 105%;
-    margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 105%;
+	margin-bottom: 20px;
 }
 
 .padded {
-    padding: 15vh 0;
+	padding: 15vh 0;
 }
 
 .all-caps {
-    text-transform: uppercase;
-    font-size: 105%;
-    font-weight: normal;
+	text-transform: uppercase;
+	font-size: 105%;
+	font-weight: normal;
 }
 
 h2 {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .image {
-    background: whitesmoke;
-    height: 400px;
-    padding: 30px;
+	background: whitesmoke;
+	height: 400px;
+	padding: 30px;
 }
 
 .button {
-    border: 1px solid;
-    padding: 10px 20px;
-    border-radius: 3px;
-    display: inline-block;
+	border: 1px solid;
+	padding: 10px 20px;
+	border-radius: 3px;
+	display: inline-block;
 }
 
 .person-image {
-    background: whitesmoke;
-    float: left;
-    margin-bottom: 10px;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    margin-top: 10px;
-    margin-right: 20px;
+	background: whitesmoke;
+	float: left;
+	margin-bottom: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	margin-top: 10px;
+	margin-right: 20px;
 }
 .person-name {
-    font-weight: bold;
-    margin-top: 13px;
+	font-weight: bold;
+	margin-top: 13px;
 }
 
 .ma-bo {
-    margin-bottom: 10vh;
+	margin-bottom: 10vh;
 }
 .ma {
-    margin: 10vh 0;
+	margin: 10vh 0;
 }
 
 .footer-heading {
-    margin-bottom: 20px;
-    font-size: 100%;
-    font-weight: bold;
+	margin-bottom: 20px;
+	font-size: 100%;
+	font-weight: bold;
 }
 
 #colophon {
-    padding: 55px 0;
-    background: whitesmoke;
-    position: relative;
+	padding: 55px 0;
+	background: whitesmoke;
+	position: relative;
 }
 #colophon:after {
-    content: "";
-    position: absolute;
-    background: url("../img/bg.png") 100% 100%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 20px;
+	content: "";
+	position: absolute;
+	background: url("../img/bg.png") 100% 100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 20px;
 }
 #colophon a {
-    color: inherit;
-    display: block;
+	color: inherit;
+	display: block;
 }
 #colophon ul {
-    margin: 0;
-    list-style: none;
-    padding: 0;
+	margin: 0;
+	list-style: none;
+	padding: 0;
 }
 #colophon li {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .social-links a {
-    display: inline-block !important;
-    margin-right: 15px;
-    font-size: 175%;
+	display: inline-block !important;
+	margin-right: 15px;
+	font-size: 175%;
 }
 
 .button-hero {
-    font-size: 150%;
-    padding: 20px 30px;
-    margin-bottom: 10vh;
+	font-size: 150%;
+	padding: 20px 30px;
+	margin-bottom: 10vh;
 }
 .button-hero i {
-    margin-left: 20px;
+	margin-left: 20px;
 }
 
 .cambridge-feature {
-    margin: 75px 0;
+	margin: 75px 0;
 }
 
 img {
-    max-width: 100%;
+	max-width: 100%;
 }
 
 .small {
-    font-size: 90%;
-    line-height: 1.4;
+	font-size: 90%;
+	line-height: 1.4;
 }
 .light {
-    color: #aaa;
+	color: #aaa;
 }
 .light-font {
-    font-weight: lighter;
+	font-weight: lighter;
 }
 .bg-light {
-    background: whitesmoke;
+	background: whitesmoke;
 }
 
 .subscribe-box {
-    padding: 40px;
+	padding: 40px;
 }
 .subscribe-box form {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 .subscribe-box input {
-    padding: 10px 15px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    font: inherit;
+	padding: 10px 15px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	font: inherit;
 }
 .subscribe-box input[type="email"] {
-    width: 100%;
-    margin-bottom: 10px;
+	width: 100%;
+	margin-bottom: 10px;
 }
 .subscribe-box input[type="submit"] {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .ma-bo-sm {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
+}
+.ma-to-sm {
+	margin-top: 15px;
 }
 
 p:last-child {
-    margin-bottom: 0;
+	margin-bottom: 0;
+}
+
+.ma-b {
+	margin-bottom: 30px;
+}
+
+.icon-box i {
+	margin: 20px auto;
+	font-size: 350%;
+	color: #ccc;
+	display: block;
+}
+
+#colophon a[data-oswald] {
+	display: inline-block;
+}
+
+#content:not(.no-ma) {
+	margin-top: 50px;
+}
+
+.team-photo {
+	background: whitesmoke;
+	width: 128px;
+	overflow: hidden;
+	height: 128px;
+	margin: 30px auto;
+	border-radius: 100%;
+}
+.team-photo img {
+	width: 128px;
+	height: 128px;
+}
+.team-name, .team-position {
+	font-size: 115%;
+}
+.team-position {
+	color: #aaa;
+}
+.team-info {
+	margin-top: 20px;
+	font-size: 98%;
+	line-height: 1.4;
+}
+
+.ta-c {
+	text-align: center;
 }
