@@ -125,7 +125,7 @@ h2, h3, h4, h5 {
 
 .image {
 	background: whitesmoke;
-	height: 400px;
+	height: 250px;
 	padding: 30px;
 }
 
@@ -151,6 +151,9 @@ h2, h3, h4, h5 {
 	margin-top: 13px;
 }
 
+.ma-to {
+	margin-top: 30px;
+}
 .ma-bo {
 	margin-bottom: 10vh;
 }
